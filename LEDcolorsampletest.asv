@@ -1,0 +1,34 @@
+% Slade Brooks
+% spbrooks4@gmail.com
+% LED Background Thing Image Processing Test
+% committing code to github with neither direction nor magnitude
+
+% initialize colors
+colormap = [];
+
+% read images
+I = imread("edgeexplosion.jpg");
+%J = imread("midexplosion.jpg");
+
+% get colors around the edge of the image (start top left and go cw)
+% top edge
+for i = 1:size(I, 2)
+    colormap(i, 1) = I(1, i, 1);
+    colormap(i, 2) = I(1, i, 2);
+    colormap(i, 3) = I(1, i, 3);
+end
+% right side
+
+
+
+
+
+
+
+
+
+% display images
+%figure(1);
+%imshow(I);
+%figure(2);
+%imshow(J);
