@@ -1,3 +1,5 @@
+clear; clc; close all
+
 % Slade Brooks
 % spbrooks4@gmail.com
 % LED Background Thing Image Processing Test
